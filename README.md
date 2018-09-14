@@ -1,4 +1,4 @@
-# AIdens
+# Symfony Starter Pack
 
 **Author** : LAFAGE Adrien
 
