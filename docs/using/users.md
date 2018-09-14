@@ -131,8 +131,27 @@ Find here all the routes provide by FOSUserBundle : [FOSUserBundle Routes](../at
 
 -------
 
-## Override FOSUserBundle templates
+## Override FOSUserBundle Templates
 
 As we said FOSUserBundle provides severals templates for registration, connection, etc ... You can change them by overriding. For instance : you would like to change the registration template (*register_content.html.twig*). So you have to create a copy of this file in the following path : **\\templates\bundles\FOSUserBundle\Registration\\** .
 
 By changing the contents of this copy, you'll modify the view.
+
+## FOSUserBundle Commands
+
+There are several FOSUserBundle commands to manage your users. Here some of them :
+
+```sh
+# Create a user
+$ php bin/console fos:user:create username usermail userpwd
+# Add a role to a user
+$ php bin/console fos:user:promote username ROLE
+# Delete a role to a user
+$ php bin/console fos:user:demote username ROLE
+# Activate a user account
+$ php bin/console fos:user:activate username
+# Deactivate a user account
+$ php bin/console fos:user:deactivate username
+# Change the user password
+$ php bin/console fos:user:change-password username newpwd
+```
