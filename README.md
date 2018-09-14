@@ -1,4 +1,4 @@
-# Symfony Starter Pack
+# Symfony 4 Starter Pack
 
 **Author** : LAFAGE Adrien
 
