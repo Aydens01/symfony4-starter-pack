@@ -1,0 +1,15 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+
+<div class="box-row-center-center">
+    <h2>Sign in</h2>
+</div>
+
+<div class="box-row-center-center">
+    <div class="formulaire">
+        {% include "@FOSUser/Registration/register_content.html.twig" %}
+    </div>
+</div>
+
+{% endblock fos_user_content %}
