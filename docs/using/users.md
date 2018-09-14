@@ -10,7 +10,7 @@ $ php composer.phar require friendsofsymfony/user-bundle
 
 ### User Entity
 
-You have to create an entity which take the entity *User* of FOSUserBundle as parent. 
+You have to create an entity which takes the entity *User* of FOSUserBundle as parent. 
 
     // src/Entity/User.php
 
