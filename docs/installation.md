@@ -27,7 +27,7 @@ You would like to copy the source code's folder of this application in the repos
 
 ```sh
 $ cd projects
-$ git clone git@gitlab.etude.eisti.fr:lafageadri/AIdens.git
+$ git clone https://github.com/Aydens01/symfony4-starter-pack.git
 ```
 
 Then you need to install all the project's dependencies into vendor/ :
