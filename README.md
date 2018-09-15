@@ -14,6 +14,10 @@ Setting up the Symfony framework by creating a basic application.
 
 The goal of this project is to set up an application with the Symfony framework (v.4.1) and to discribe how it works for people who want to start using it. The final application will provide an users management and an administrator space.
 
+## License
+
+This bundle is under the MIT license. See the complete license [in the bundle](LICENSE)
+
 ## Documentation
 
 * [Installation](docs/installation.md)
