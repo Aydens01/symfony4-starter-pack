@@ -16,7 +16,7 @@ The goal of this project is to set up an application with the Symfony framework 
 
 ## License
 
-This bundle is under the MIT license. See the complete license [in the bundle](LICENSE)
+This bundle is under the MIT license. See the complete license [in the bundle](LICENSE).
 
 ## Documentation
 
