@@ -21,6 +21,11 @@ $ php bin/console server:run
 
 Open your browser and navigate to **http:<span></span>//localhost:8000/**. If everything is working, you'll see a welcome page. Later, when you are finished working, stop the server by pressing **Ctrl+C** from your terminal.
 
+-------
+Find here documentations that may help you to develop your application in Symfony 4 : [Documentation](../README.md##Documentation)
+
+-------
+
 ## Download This Application
 
 You would like to copy the source code's folder of this application in the repository **projects**, do those following commands :
@@ -79,4 +84,25 @@ $ php bin/console doctrine:schema:update --dump-sql
 
 # To export your entities
 $ php bin/console doctrine:schema:update --force
+```
+
+### Build Your Assets
+
+At this time, your assets are not compiled and minified, so you will need to install **Webpack Encore**. First, make you sure you install Node.js and also the Yarn package manager.
+
+Then, install Encore into your project with Yarn:
+```sh
+$ yarn add @symfony/webpack-encore --dev
+```
+
+Finally build your assets with one of these commands :
+```sh
+# compile assets once
+$ yarn run encore dev
+
+# recompile assets automatically when files change
+$ yarn run encore dev --watch
+
+# compile assets, but also minify & optimize them
+$ yarn run encore production
 ```
