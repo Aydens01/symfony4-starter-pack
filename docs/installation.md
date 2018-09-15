@@ -22,7 +22,7 @@ $ php bin/console server:run
 Open your browser and navigate to **http:<span></span>//localhost:8000/**. If everything is working, you'll see a welcome page. Later, when you are finished working, stop the server by pressing **Ctrl+C** from your terminal.
 
 -------
-Find here documentations that may help you to develop your application in Symfony 4 : [Documentation](../README.md##Documentation)
+Find here documentations that may help you to develop your application in Symfony 4 : [Documentation](../README.md#documentation)
 
 -------
 
