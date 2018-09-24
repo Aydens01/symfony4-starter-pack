@@ -23,6 +23,7 @@ This bundle is under the GNU license. See the complete license [in the bundle](L
 * [Installation](docs/installation.md)
 * [Using](#)
     * [Manage Your Assets With Encore](docs/using/assets.md)
+    * [Manage Your Request With AJAX](docs/using/ajax.md)
     * [Manage Your Users With FOSUserBundle](docs/using/users.md)
 * [Attachments](#)
     * [Add Bootstrap in your project](docs/attachments/bootstrap.md)
