@@ -14,7 +14,7 @@
 
 <ul>
 {% for user in users %}
-    <li>{{user.username}}, <a href="#">modifier</a>, <a href="#">supprimer</a></li>
+    <li id="user{{user.id}}" data-userId="{{user.id}}">{{user.username}}, <a href="#">modifier</a>, <a href="#">supprimer</a></li>
 {% endfor %}
 </ul>
 
