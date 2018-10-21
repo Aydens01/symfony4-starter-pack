@@ -37,7 +37,7 @@ $ git clone https://github.com/Aydens01/symfony4-starter-pack.git
 
 Then you need to install all the project's dependencies into vendor/ :
 ```sh
-$ cd AIdens/
+$ cd symfony4-starter-pack/
 $ php composer.phar install
 ```
 
